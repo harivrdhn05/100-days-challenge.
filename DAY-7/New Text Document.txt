@@ -1,0 +1,20 @@
+Day-7 
+Building the Hangman game was an exciting yet challenging task.
+One of the main difficulties faced was handling user input correctly, ensuring only single letters were accepted while preventing repeated guesses.
+Another issue was maintaining the correct display of the word with guessed and hidden letters, as improper string manipulation could cause errors.
+Debugging logic errors, such as checking for a win condition too early or decrementing attempts incorrectly, also required careful attention.
+Implementing a smooth game flow, including providing clear prompts and feedback, was essential to enhance the user experience.
+Managing the hangman drawing logic to ensure it updates correctly with each incorrect guess was another aspect that needed adjustments.
+Despite these challenges, the game turned out to be a fun and interactive way to reinforce concepts like loops, conditionals, sets, and functions.
+def get_valid_input():
+    while True:
+        letter = input("Enter a letter: ").lower()
+        if len(letter) == 1 and letter.isalpha():
+            return letter
+        else:
+            print("Invalid input! Please enter a single letter.")
+
+print("You entered:", get_valid_input())
+The function repeatedly asks for input until a valid single letter is entered.
+It checks that the input is a single character and is an alphabet.
+If invalid input is given, it prompts the user again.

@@ -1,0 +1,22 @@
+DAY-6
+PYTHON FUNCTIONS AND KAREL
+refer python documentation for all kind of built in functions
+print,len,sum,max,etc etc are can be stated as built in functions
+To define a function we use def keyword
+like 
+def hello():
+	print("Hello")
+like this we will create and use functions
+It helps in code reusability.
+if we write a program for an function and that program is very useful in all the program then we create a function which can be called when ever it needs
+What is function calling function calling is the process which helps to reuse the code which has been used once.
+In this day we use Reeborgs world.
+We can use functions in loops which will be very use full.
+As we know that loops are the elements which can be used to iterate a particular function 
+repeatedly
+Indentation:This is one of the fundamental in python every code must follow indentation.
+for example
+if x>2:
+    print("hello")
+the black space can be called as indentation.
+  
